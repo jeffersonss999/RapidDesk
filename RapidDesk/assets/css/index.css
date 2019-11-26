@@ -36,6 +36,8 @@
 
 .nav-menu{
     width: 250px;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .nav-menu-ul{
@@ -48,3 +50,14 @@
 }
 
 .nav-menu-link{}
+
+#iconeMenu{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    padding: 5px;
+    position: absolute;
+}
+#check{
+display: none;
+}
