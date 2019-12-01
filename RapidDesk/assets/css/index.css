@@ -1,4 +1,6 @@
+/*IMPORTS*/
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 /** RESET **/
 html {
@@ -33,6 +35,7 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-bottom: 2px solid black;
 }
 
 .header-nav {
@@ -46,16 +49,15 @@ ul {
     background: #3A66E8;
     margin-top: 10px;
     padding: 5px;
+    border: 2px solid white;
+    box-shadow: 0px 10px black;
 }
 
 
 
 .nav-brand {
-
     height: 30px;
-    
     text-align: center;
-    
     display: flex;
     align-items: center;
 }
@@ -132,9 +134,11 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Lato', sans-serif;
 }
 
 .section-title {
+    font-family: 'Lato', sans-serif;
     font-size: 18px;
     text-transform: uppercase;
 }
@@ -150,19 +154,22 @@ ul {
 .section-topics {
     display: flex;
     justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .section-content {
     margin: 10px 0px;
     width: 250px;
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     flex-direction: column;
 }
 
 .content-picture-inicio {
     width: 190px;
     height: 150px;
+    border-radius: 45%;
 }
 
 .section-content-title {
@@ -171,7 +178,10 @@ ul {
 
 .section-content-description {
     font-size: 10px;
-    text-align: justify;
+    text-align: justify ;
+}
+.section-content-divDesc{
+    margin: 5%;
 }
 
 /* SECTIONS */
@@ -234,6 +244,13 @@ ul {
 
 
 @media (min-width: 720px) {
+    #intercala-1{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .section-content-divDesc{
+        margin-top: 15%;
+    }
     .nav-menu-li{
         display: flex;
     }
@@ -268,6 +285,8 @@ ul {
 
     .section-content{
         width: 900px;
+        display: flex;
+        flex-direction: row;
     }
     .content-picture-inicio {
         width: 550px;
