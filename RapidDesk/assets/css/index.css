@@ -50,7 +50,7 @@ ul {
     margin-top: 10px;
     padding: 5px;
     border: 2px solid white;
-    box-shadow: 0px 10px black;
+    box-shadow: 0px 5px black;
 }
 
 .nav-brand {
@@ -90,6 +90,7 @@ ul {
 
 .nav-menu-li {
     display: flex;
+    
 }
 
 .nav-menu-link {
@@ -97,6 +98,8 @@ ul {
     font-size: 150%;
     color: #000;
     margin: 5px;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav-menu-li:hover{
@@ -165,7 +168,7 @@ ul {
     margin: 10px 0px;
     width: 250px;
     display: flex;
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
     flex-direction: column;
 }
 
@@ -201,6 +204,7 @@ ul {
 }
 #btn-rodape:hover{
     background: #709da0;
+    color: #000;
 }
 /* SECTIONS */
 
@@ -234,7 +238,6 @@ ul {
     .nav-menu {
         width: 300px;
     }
-
     .section-title {
         font-size: 20px;
     }
@@ -307,11 +310,11 @@ ul {
     }
 
     .section-title {
-        font-size: 50px;
+        font-size: 25px;
     }
 
     .section-description {
-        font-size: 30px;
+        font-size: 24px;
         width: 400px;
     }
 
