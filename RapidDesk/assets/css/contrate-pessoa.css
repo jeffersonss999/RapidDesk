@@ -1,0 +1,25 @@
+.section-form{
+    display: flex;
+    justify-content: center;
+}
+
+.form-pessoa{
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.form-data-hora{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.form-data-hora input{
+    width: 80px;
+    margin-bottom: 3px;
+}
+
+.form-pessoa textarea, section{
+    margin-bottom: 3px;
+}
