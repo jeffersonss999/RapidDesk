@@ -48,14 +48,9 @@ ul {
     padding: 5px;
 }
 
-
-
 .nav-brand {
-
     height: 30px;
-    
     text-align: center;
-    
     display: flex;
     align-items: center;
 }
@@ -66,10 +61,14 @@ ul {
     color: #FFF;
     font-weight: bold;
     font-size: 20px;
+    display: flex;
+    align-items: center;
 }
+
 .nav-brand-link img{
-    vertical-align: center;
-    width: 100px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
 }
 
 .nav-menu {
@@ -234,6 +233,8 @@ ul {
 
 
 @media (min-width: 720px) {
+
+
     .nav-menu-li{
         display: flex;
     }
@@ -246,6 +247,7 @@ ul {
     .header-nav {
         flex-direction: row;
         justify-content: space-between;
+        width: 90%;
     }
 
     .nav-brand-link {
@@ -288,7 +290,7 @@ ul {
         width: 95%;
     }
     #ico-logo{
-        width: 150px;
+        width: 50px;
     }
 }
 
