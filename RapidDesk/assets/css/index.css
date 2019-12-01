@@ -107,6 +107,10 @@ ul {
 .nav-menu-link:hover{
     color: white;
 }
+.link-btn{
+    width: 100%;
+    height: auto;
+}
 
 .footer {
     background: #000;
@@ -183,7 +187,22 @@ ul {
 .section-content-divDesc{
     margin: 5%;
 }
-
+#btn-rodape{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #4ac2ca;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#btn-rodape:hover{
+    background: #709da0;
+}
 /* SECTIONS */
 
 
@@ -240,16 +259,25 @@ ul {
     .section-content-description {
         font-size: 12px;
     }
+    #btn-rodape, .link-btn{
+        width: 200px;
+    }
 }
 
 
 @media (min-width: 720px) {
+    .section-content-picture{
+        margin-top: 5%;
+    }
+    .section-content-divDesc p, .section-content-divDesc h3{
+        font-size: 20px;
+    }
+    #btn-rodape, .link-btn{
+        width: 500px;
+    }
     #intercala-1{
         display: flex;
         flex-direction: row-reverse;
-    }
-    .section-content-divDesc{
-        margin-top: 15%;
     }
     .nav-menu-li{
         display: flex;
@@ -275,11 +303,11 @@ ul {
     }
 
     .section-title {
-        font-size: 22px;
+        font-size: 50px;
     }
 
     .section-description {
-        font-size: 16px;
+        font-size: 30px;
         width: 400px;
     }
 
