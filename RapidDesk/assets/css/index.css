@@ -99,6 +99,11 @@ ul {
 
 .nav-menu-li:hover{
     background-color: #4DA9FF;
+    
+}
+
+.nav-menu-link:hover{
+    color: white;
 }
 
 .footer {
