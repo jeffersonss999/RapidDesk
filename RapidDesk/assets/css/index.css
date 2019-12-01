@@ -2,27 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
-/** RESET **/
-html {
-    box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
-
-ol,
-ul {
-    list-style: none;
-}
-
-/* END RESET */
-
-
 /** FONT **/
 .header {
     position: relative;
