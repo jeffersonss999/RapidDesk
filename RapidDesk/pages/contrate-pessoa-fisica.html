@@ -50,9 +50,9 @@
                     <label for="email"> Email: </label>
                     <input id="email" type="text">
                     <label for="cpf"> CPF: </label>
-                    <input id="cpf" type="text">
+                    <input id="cpf" type="text" size="20" maxlength="14" onkeypress="inserirMascara(this, '###.###.###-##');">
                     <label for="telefone"> Telefone: </label>
-                    <input id="telefone" type="text">
+                    <input id="telefone" type="text" maxlength="13" onkeypress="inserirMascara(this, '## ####-####');">
                     <label for="cdServicos"> Serviços: </label>
                     <select id=cdServicos>
                         <option value="">Selecione um serviço</option>
@@ -63,11 +63,11 @@
                     <div class="form-data-hora">
                         <div class="form-data">
                             <label for="data"> Data: </label>
-                            <input id="data" type="text">
+                            <input id="data" type="text" maxlength="10" onkeypress="inserirMascara(this, '##/##/####');">
                         </div>
                         <div class="form-hora">
                             <label for="hora"> Hora: </label>
-                            <input id="hora" type="text">
+                            <input id="hora" type="text" maxlength="5" onkeypress="inserirMascara(this, '##:##');">
                         </div>
                     </div>
                     <label for="local"> Local: </label>
@@ -92,7 +92,7 @@
         </footer>
     </div>
 
-    <script src="assets/javascript/index.js"></script>
+    <script src="../assets/javascript/index.js"></script>
 </body>
 
 </html>
